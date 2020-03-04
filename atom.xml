@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://hiedanoakyuu.gitee.io/blog/"/>
-  <updated>2020-02-27T02:44:33.399Z</updated>
+  <updated>2020-03-04T15:48:19.628Z</updated>
   <id>http://hiedanoakyuu.gitee.io/blog/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>new type</title>
+    <link href="http://hiedanoakyuu.gitee.io/blog/2020/03/04/new-type/"/>
+    <id>http://hiedanoakyuu.gitee.io/blog/2020/03/04/new-type/</id>
+    <published>2020-03-04T15:33:38.000Z</published>
+    <updated>2020-03-04T15:48:19.628Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><p>考研计划<br>网站完善计划<br>东方角色曲文章专属计划<br>fpga补完计划<br>matlab复盘计划<br>stm32复盘计划<br>机器学习复盘计划</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;考研计划&lt;br&gt;网站完善计划&lt;br&gt;东方角色曲文章专属计划&lt;br&gt;fpga补完计划&lt;br&gt;matlab复盘计划&lt;br&gt;stm32复盘计划&lt;br&gt;机器学习复盘计划&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>verilog基础模块</title>
+    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/"/>
+    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/</id>
+    <published>2020-02-27T03:00:53.000Z</published>
+    <updated>2020-03-04T15:35:16.908Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="fpga"><a href="#fpga" class="headerlink" title="fpga"></a>fpga</h2><h3 id="forever"><a href="#forever" class="headerlink" title="forever"></a>forever</h3><p>forever循环语句常用于产生周期性的波形，用来作为仿真测试信号。它与always语句不同之处在于不能独立写在程序中，而必须写在initial块中。</p><h3 id="parameter"><a href="#parameter" class="headerlink" title="parameter"></a>parameter</h3><p>在Verilog中我们常常会遇到要将一个常量（算法中的某个参数）赋给很多个变量的情况，如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x &#x3D; 10;</span><br><span class="line">y &#x3D; 10;</span><br><span class="line">z &#x3D; 10;</span><br></pre></td></tr></table></figure><p>如果此时10要改为9，就需要在代码中修改3个地方，非常的不方便，并且这个10是没有任何意义的，我们不知道它代表什么，所以为了代码的易重用、易读性，我们应使常量参数化，如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">parameter   MAX &#x3D; 10;</span><br><span class="line">x &#x3D; MAX;</span><br><span class="line">y &#x3D; MAX;</span><br><span class="line">z &#x3D; MAX;</span><br></pre></td></tr></table></figure><p>这样就只需要修改MAX就可以了，并且MAX是有意义的，增加代码的易读性。<br>parameter是常量，不是变量，所以不允许在运行时修改它的值，即不能在组合逻辑或者时序逻辑中对其进行赋值。</p><h2 id="frida监控手机摄像头调用情况"><a href="#frida监控手机摄像头调用情况" class="headerlink" title="frida监控手机摄像头调用情况"></a>frida监控手机摄像头调用情况</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;fpga&quot;&gt;&lt;a href=&quot;#fpga&quot; class=&quot;headerlink&quot; title=&quot;fpga&quot;&gt;&lt;/a&gt;fpga&lt;/h2&gt;&lt;h3 id=&quot;forever&quot;&gt;&lt;a href=&quot;#forever&quot; class=&quot;headerlink&quot; title=&quot;for
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>verilog仿真</title>
