@@ -5,9 +5,9 @@
   <subtitle>a negligible person in the world</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://hiedanoakyuu.gitee.io/blog/"/>
+  <link href="https://hiedanoakyuu.github.io/blog/"/>
   <updated>2020-03-05T03:43:13.812Z</updated>
-  <id>http://hiedanoakyuu.gitee.io/blog/</id>
+  <id>https://hiedanoakyuu.github.io/blog/</id>
   
   <author>
     <name>hiedanoakyuu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>比赤色更红的梦</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/03/05/%E6%AF%94%E8%B5%A4%E8%89%B2%E6%9B%B4%E7%BA%A2%E7%9A%84%E6%A2%A6/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/03/05/%E6%AF%94%E8%B5%A4%E8%89%B2%E6%9B%B4%E7%BA%A2%E7%9A%84%E6%A2%A6/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/03/05/%E6%AF%94%E8%B5%A4%E8%89%B2%E6%9B%B4%E7%BA%A2%E7%9A%84%E6%A2%A6/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/03/05/%E6%AF%94%E8%B5%A4%E8%89%B2%E6%9B%B4%E7%BA%A2%E7%9A%84%E6%A2%A6/</id>
     <published>2020-03-05T03:29:22.000Z</published>
     <updated>2020-03-05T03:43:13.812Z</updated>
     
@@ -32,17 +32,17 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
-      <category term="touhou" scheme="http://hiedanoakyuu.gitee.io/blog/tags/touhou/"/>
+      <category term="touhou" scheme="https://hiedanoakyuu.github.io/blog/tags/touhou/"/>
     
   </entry>
   
   <entry>
     <title>new type</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/03/04/new-type/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/03/04/new-type/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/03/04/new-type/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/03/04/new-type/</id>
     <published>2020-03-04T15:33:38.000Z</published>
     <updated>2020-03-04T15:49:46.141Z</updated>
     
@@ -55,15 +55,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>verilog基础模块</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/</id>
     <published>2020-02-27T03:00:53.000Z</published>
     <updated>2020-03-05T02:49:49.518Z</updated>
     
@@ -79,17 +79,17 @@
     </summary>
     
     
-      <category term="projects" scheme="http://hiedanoakyuu.gitee.io/blog/categories/projects/"/>
+      <category term="projects" scheme="https://hiedanoakyuu.github.io/blog/categories/projects/"/>
     
     
-      <category term="verilog" scheme="http://hiedanoakyuu.gitee.io/blog/tags/verilog/"/>
+      <category term="verilog" scheme="https://hiedanoakyuu.github.io/blog/tags/verilog/"/>
     
   </entry>
   
   <entry>
     <title>verilog仿真</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/</id>
     <published>2020-02-25T11:28:36.000Z</published>
     <updated>2020-03-05T02:52:31.877Z</updated>
     
@@ -102,17 +102,17 @@
     </summary>
     
     
-      <category term="projects" scheme="http://hiedanoakyuu.gitee.io/blog/categories/projects/"/>
+      <category term="projects" scheme="https://hiedanoakyuu.github.io/blog/categories/projects/"/>
     
     
-      <category term="verilog" scheme="http://hiedanoakyuu.gitee.io/blog/tags/verilog/"/>
+      <category term="verilog" scheme="https://hiedanoakyuu.github.io/blog/tags/verilog/"/>
     
   </entry>
   
   <entry>
     <title>屁屁枪忒骚了</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/24/%E5%B1%81%E5%B1%81%E6%9E%AA%E5%BF%92%E9%AA%9A%E4%BA%86/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/24/%E5%B1%81%E5%B1%81%E6%9E%AA%E5%BF%92%E9%AA%9A%E4%BA%86/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/24/%E5%B1%81%E5%B1%81%E6%9E%AA%E5%BF%92%E9%AA%9A%E4%BA%86/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/24/%E5%B1%81%E5%B1%81%E6%9E%AA%E5%BF%92%E9%AA%9A%E4%BA%86/</id>
     <published>2020-02-24T15:36:16.000Z</published>
     <updated>2020-03-05T02:52:43.747Z</updated>
     
@@ -129,15 +129,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>我抽到伊莉雅一家人了！！</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/23/%E6%88%91%E6%8A%BD%E5%88%B0%E4%BC%8A%E8%8E%89%E9%9B%85%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%BA%86%EF%BC%81%EF%BC%81/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/23/%E6%88%91%E6%8A%BD%E5%88%B0%E4%BC%8A%E8%8E%89%E9%9B%85%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%BA%86%EF%BC%81%EF%BC%81/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/23/%E6%88%91%E6%8A%BD%E5%88%B0%E4%BC%8A%E8%8E%89%E9%9B%85%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%BA%86%EF%BC%81%EF%BC%81/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/23/%E6%88%91%E6%8A%BD%E5%88%B0%E4%BC%8A%E8%8E%89%E9%9B%85%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%BA%86%EF%BC%81%EF%BC%81/</id>
     <published>2020-02-23T15:00:29.000Z</published>
     <updated>2020-03-05T02:52:56.962Z</updated>
     
@@ -150,15 +150,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>伊莉雅卡哇伊</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/21/%E4%BC%8A%E8%8E%89%E9%9B%85%E5%8D%A1%E5%93%87%E4%BC%8A/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/21/%E4%BC%8A%E8%8E%89%E9%9B%85%E5%8D%A1%E5%93%87%E4%BC%8A/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/21/%E4%BC%8A%E8%8E%89%E9%9B%85%E5%8D%A1%E5%93%87%E4%BC%8A/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/21/%E4%BC%8A%E8%8E%89%E9%9B%85%E5%8D%A1%E5%93%87%E4%BC%8A/</id>
     <published>2020-02-21T12:35:35.000Z</published>
     <updated>2020-03-05T02:53:52.822Z</updated>
     
@@ -171,15 +171,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>born</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/20/born/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/20/born/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/20/born/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/20/born/</id>
     <published>2020-02-20T15:43:34.000Z</published>
     <updated>2020-03-05T02:53:46.948Z</updated>
     
@@ -192,15 +192,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>今日依然是伊莉雅日呢</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/19/%E4%BB%8A%E6%97%A5%E4%BE%9D%E7%84%B6%E6%98%AF%E4%BC%8A%E8%8E%89%E9%9B%85%E6%97%A5%E5%91%A2/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/19/%E4%BB%8A%E6%97%A5%E4%BE%9D%E7%84%B6%E6%98%AF%E4%BC%8A%E8%8E%89%E9%9B%85%E6%97%A5%E5%91%A2/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/19/%E4%BB%8A%E6%97%A5%E4%BE%9D%E7%84%B6%E6%98%AF%E4%BC%8A%E8%8E%89%E9%9B%85%E6%97%A5%E5%91%A2/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/19/%E4%BB%8A%E6%97%A5%E4%BE%9D%E7%84%B6%E6%98%AF%E4%BC%8A%E8%8E%89%E9%9B%85%E6%97%A5%E5%91%A2/</id>
     <published>2020-02-19T10:11:44.000Z</published>
     <updated>2020-03-05T02:53:37.706Z</updated>
     
@@ -215,15 +215,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>克洛伊卡哇伊</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/18/%E5%85%8B%E6%B4%9B%E4%BC%8A%E5%8D%A1%E5%93%87%E4%BC%8A/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/18/%E5%85%8B%E6%B4%9B%E4%BC%8A%E5%8D%A1%E5%93%87%E4%BC%8A/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/18/%E5%85%8B%E6%B4%9B%E4%BC%8A%E5%8D%A1%E5%93%87%E4%BC%8A/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/18/%E5%85%8B%E6%B4%9B%E4%BC%8A%E5%8D%A1%E5%93%87%E4%BC%8A/</id>
     <published>2020-02-18T01:33:06.000Z</published>
     <updated>2020-03-05T02:53:18.731Z</updated>
     
@@ -236,15 +236,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>my first blog</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/17/my-first-blog/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/17/my-first-blog/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/17/my-first-blog/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/17/my-first-blog/</id>
     <published>2020-02-17T13:20:32.000Z</published>
     <updated>2020-03-05T02:53:13.327Z</updated>
     
@@ -257,15 +257,15 @@
     </summary>
     
     
-      <category term="diary" scheme="http://hiedanoakyuu.gitee.io/blog/categories/diary/"/>
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://hiedanoakyuu.gitee.io/blog/2020/02/17/hello-world/"/>
-    <id>http://hiedanoakyuu.gitee.io/blog/2020/02/17/hello-world/</id>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/02/17/hello-world/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/02/17/hello-world/</id>
     <published>2020-02-17T12:19:51.765Z</published>
     <updated>2020-03-05T02:54:07.088Z</updated>
     
@@ -281,7 +281,7 @@
     </summary>
     
     
-      <category term="begin" scheme="http://hiedanoakyuu.gitee.io/blog/categories/begin/"/>
+      <category term="begin" scheme="https://hiedanoakyuu.github.io/blog/categories/begin/"/>
     
     
   </entry>
