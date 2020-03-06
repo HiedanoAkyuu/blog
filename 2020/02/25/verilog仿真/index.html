@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme='Volantis' version='1.5.2' docs='https://xaoxuu.com/wiki/volantis/'>
+<head hexo-theme='https://volantis.js.org/#1.7.4'>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- SEO相关 -->
   
-  <title>verilog仿真 | Hieda no akyuu</title>
+    
   
-  
-
-  
-  <link rel="alternate" href="/blog/atom.xml" title="Hieda no akyuu">
-  
-
-  <meta name="HandheldFriendly" content="True" />
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <!-- meta -->
+
+  <!-- 页面元数据 -->
+  
+    <title>verilog仿真 - Hieda no akyuu</title>
+  
+    <meta name="keywords" content="verilog">
+  
+  
+    <meta name="description" content="关于昨天提到的仿真全过程分析以及总结">
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/blog/atom.xml" title="Hieda no akyuu">
+  
+
+  <!-- import meta -->
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css">
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
   
 
   
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  <!-- import link -->
   
 
   
@@ -50,7 +72,6 @@
 
 <body>
   
-  
   <div class="cover-wrapper">
     <cover class='cover post half'>
       
@@ -62,7 +83,7 @@
   <div class="m_search">
     <form name="searchform" class="form u-search-form">
       <i class="icon fas fa-search fa-fw"></i>
-      <input type="text" class="input u-search-input" placeholder="A Wonderful Theme for Hexo 4.2+" />
+      <input type="text" class="input u-search-input" placeholder="搜索一下" />
     </form>
   </div>
 
@@ -119,77 +140,82 @@
 </div>
 
       
+      
     </cover>
     <header class="l_header nav-blur">
   <div id="loading-bar-wrapper">
     <div id="loading-bar"></div>
   </div>
-
 	<div class='wrapper'>
 		<div class="nav-main container container--flex">
-      <a class="logo flat-box" target="_self" href='/blog/' >
-        
+      
+        <a class="logo flat-box" target="_self" href='/blog/' >
           
+            
+              VOLANTIS <sup style='color:#2196f3'>1.7.4</sup>
+            
           
-            hiedanoakyuu
-          
-        
-      </a>
+        </a>
+      
+
 			<div class='menu navigation'>
 				<ul class='h-list'>
           
-  					
-  						<li>
-								<a class="nav flat-box" href="/blog/"
-                  
-                  
-                    target="_self"
-                  
-                  id="blog">
-									<i class='fas fa-hourglass-half fa-fw'></i>&nbsp;近期
-								</a>
-							</li>
-      			
-  						<li>
-								<a class="nav flat-box" href="/blog/blog/categories/"
-                  
-                    rel="nofollow"
-                  
-                  
-                    target="_self"
-                  
-                  id="blogblogcategories">
-									<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
-								</a>
-							</li>
-      			
-  						<li>
-								<a class="nav flat-box" href="/blog/blog/tags/"
-                  
-                    rel="nofollow"
-                  
-                  
-                    target="_self"
-                  
-                  id="blogblogtags">
-									<i class='fas fa-hashtag fa-fw'></i>&nbsp;标签
-								</a>
-							</li>
-      			
-  						<li>
-								<a class="nav flat-box" href="/blog/blog/archives/"
-                  
-                    rel="nofollow"
-                  
-                  
-                    target="_self"
-                  
-                  id="blogblogarchives">
-									<i class='fas fa-archive fa-fw'></i>&nbsp;归档
-								</a>
-							</li>
-      			
-      		
+          
+            <li>
+              <a class="nav flat-box" href="/blog/"
+                
+                
+                id="blog">
+                <i class='fas fa-rss fa-fw'></i>&nbsp;博客
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav flat-box" href="/blog/categories/"
+                
+                
+                id="blogcategories">
+                <i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav flat-box" href="/blog/tags/"
+                
+                
+                id="blogtags">
+                <i class='fas fa-tags fa-fw'></i>&nbsp;标签
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav flat-box" href="/blog/archives/"
+                
+                
+                id="blogarchives">
+                <i class='fas fa-archive fa-fw'></i>&nbsp;归档
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav flat-box" href="/blog/friends/"
+                
+                
+                id="blogfriends">
+                <i class='fas fa-link fa-fw'></i>&nbsp;友链
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav flat-box" href="/blog/about/"
+                
+                
+                id="blogabout">
+                <i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+              </a>
+            </li>
+          
 				</ul>
 			</div>
 
@@ -224,70 +250,61 @@
 		<nav class="menu navigation">
       <ul>
         
-          
-            <li>
-							<a class="nav flat-box" href="/blog/"
-                
-                
-                id="blog">
-								<i class='fas fa-clock fa-fw'></i>&nbsp;近期文章
-							</a>
-            </li>
-          
-            <li>
-							<a class="nav flat-box" href="/blog/blog/archives/"
-                
-                  rel="nofollow"
-                
-                
-                id="blogblogarchives">
-								<i class='fas fa-archive fa-fw'></i>&nbsp;文章归档
-							</a>
-            </li>
-          
-            <li>
-							<a class="nav flat-box" href="/blog/projects/"
-                
-                
-                id="blogprojects">
-								<i class='fas fa-code-branch fa-fw'></i>&nbsp;开源项目
-							</a>
-            </li>
-          
-            <li>
-							<a class="nav flat-box" href="/blog/friends/"
-                
-                  rel="nofollow"
-                
-                
-                id="blogfriends">
-								<i class='fas fa-link fa-fw'></i>&nbsp;我的友链
-							</a>
-            </li>
-          
-            <li>
-							<a class="nav flat-box" href="https://xaoxuu.com/wiki/volantis/"
-                
-                  rel="nofollow"
-                
-                
-                id="https:xaoxuu.comwikivolantis">
-								<i class='fas fa-book fa-fw'></i>&nbsp;主题文档
-							</a>
-            </li>
-          
-            <li>
-							<a class="nav flat-box" href="/blog/about/"
-                
-                  rel="nofollow"
-                
-                
-                id="blogabout">
-								<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于小站
-							</a>
-            </li>
-          
-       
+        
+          <li>
+            <a class="nav flat-box" href="/blog/"
+              
+              
+              id="blog">
+              <i class='fas fa-rss fa-fw'></i>&nbsp;博客
+            </a>
+          </li>
+        
+          <li>
+            <a class="nav flat-box" href="/blog/categories/"
+              
+              
+              id="blogcategories">
+              <i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+            </a>
+          </li>
+        
+          <li>
+            <a class="nav flat-box" href="/blog/tags/"
+              
+              
+              id="blogtags">
+              <i class='fas fa-tags fa-fw'></i>&nbsp;标签
+            </a>
+          </li>
+        
+          <li>
+            <a class="nav flat-box" href="/blog/archives/"
+              
+              
+              id="blogarchives">
+              <i class='fas fa-archive fa-fw'></i>&nbsp;归档
+            </a>
+          </li>
+        
+          <li>
+            <a class="nav flat-box" href="/blog/friends/"
+              
+              
+              id="blogfriends">
+              <i class='fas fa-link fa-fw'></i>&nbsp;友链
+            </a>
+          </li>
+        
+          <li>
+            <a class="nav flat-box" href="/blog/about/"
+              
+              
+              id="blogabout">
+              <i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+            </a>
+          </li>
+        
       </ul>
 		</nav>
     </header>
@@ -299,11 +316,13 @@
 
   <div class="l_body">
     <div class='body-wrapper'>
-      <div class='l_main'>
+      
+
+<div class='l_main'>
   
 
   
-    <article id="post" class="post white-box  body-blur article-type-post" itemscope itemprop="blogPost">
+    <article id="post" class="post white-box   article-type-post" itemscope itemprop="blogPost">
       
 
 
@@ -329,17 +348,12 @@
         
           
             
-  <div class='new-meta-item author'>
-    
-      <a href="https://hiedanoakyuu.github.io/blog" rel="nofollow">
-        
-          <i class="fas fa-user" aria-hidden="true"></i>
-        
-        <p>hiedanoakyuu</p>
-      </a>
-    
-  </div>
-
+<div class='new-meta-item author'>
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>hiedanoakyuu</p>
+  </a>
+</div>
 
           
         
@@ -363,39 +377,6 @@
     <p>发布于：2020年2月25日</p>
   </a>
 </div>
-
-          
-        
-          
-            <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-05T10:52:31+08:00">
-  <a class='notlink'>
-    <i class="fas fa-save" aria-hidden="true"></i>
-    <p>更新于：2020年3月5日</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-  
-    <div class="new-meta-item browse busuanzi">
-      <a class='notlink'>
-        <i class="fas fa-eye" aria-hidden="true"></i>
-        <p>
-          <span id="busuanzi_value_page_pv">
-            <i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i>
-          </span>
-        </p>
-      </a>
-    </div>
-  
-
-
-          
-        
-          
-            
 
           
         
@@ -454,19 +435,11 @@
           
             <br>
             
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <section class='widget  widget-blur copyright'>
+  
+    
+    
+
+<section class="widget copyright  desktop mobile">
   <div class='content'>
     
       <blockquote>
@@ -489,35 +462,40 @@
   </div>
 </section>
 
-                
-              
-                
-              
-                
-              
-            
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
+  
+
+  
+    
+    
+
+<section class="widget qrcode  desktop mobile">
+  
+
+  <div class='content article-entry'>
+    
+      
+        <fancybox><img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png'
+        
+          height='64px'
+        ></fancybox>
+      
+    
+      
+        <fancybox><img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png'
+        
+          height='64px'
+        ></fancybox>
+      
+    
+  </div>
+</section>
+
+  
+
+
           
         </div>
         
-          <br>
           
 
 
@@ -525,9 +503,19 @@
     <div class='new-meta-box'>
       
         
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-05T10:52:31+08:00">
+  <a class='notlink'>
+    <i class="fas fa-save" aria-hidden="true"></i>
+    <p>更新于：2020年3月5日</p>
+  </a>
+</div>
+
+        
+      
+        
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/blog/tags/verilog/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>verilog</p></a></div>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/blog/tags/verilog/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;<p>verilog</p></a></div>
 
 
         
@@ -545,11 +533,11 @@
       
         <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/&title=verilog仿真 | Hieda no akyuu&summary=关于昨天提到的仿真全过程分析以及总结"
+          href="http://connect.qq.com/widget/shareqq/index.html?url=https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/&title=verilog仿真 - Hieda no akyuu&summary=关于昨天提到的仿真全过程分析以及总结"
           
           >
           
-            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png">
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png">
           
         </a>
       
@@ -557,11 +545,11 @@
       
         <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/&title=verilog仿真 | Hieda no akyuu&summary=关于昨天提到的仿真全过程分析以及总结"
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/&title=verilog仿真 - Hieda no akyuu&summary=关于昨天提到的仿真全过程分析以及总结"
           
           >
           
-            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png">
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png">
           
         </a>
       
@@ -569,11 +557,11 @@
       
         <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/&title=verilog仿真 | Hieda no akyuu&summary=关于昨天提到的仿真全过程分析以及总结"
+          href="http://service.weibo.com/share/share.php?url=https://hiedanoakyuu.github.io/blog/2020/02/25/verilog%E4%BB%BF%E7%9C%9F/&title=verilog仿真 - Hieda no akyuu&summary=关于昨天提到的仿真全过程分析以及总结"
           
           >
           
-            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png">
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png">
           
         </a>
       
@@ -591,43 +579,43 @@
 
         
         
-            <div class="prev-next">
-                
-                    <section class="prev">
-                        <span class="art-item-left">
-                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页</h6>
-                            <h4>
-                                <a href="/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/" rel="prev" title="verilog基础模块">
-                                  
-                                      verilog基础模块
-                                  
-                                </a>
-                            </h4>
-                            
-                                
-                                <h6 class="tags">
-                                    <a class="tag" href="/blog/tags/verilog/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> verilog</a>
-                                </h6>
-                            
-                        </span>
-                    </section>
-                
-                
-                    <section class="next">
-                        <span class="art-item-right" aria-hidden="true">
-                            <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
-                            <h4>
-                                <a href="/blog/2020/02/24/%E5%B1%81%E5%B1%81%E6%9E%AA%E5%BF%92%E9%AA%9A%E4%BA%86/" rel="prev" title="屁屁枪忒骚了">
-                                    
-                                        屁屁枪忒骚了
-                                    
-                                </a>
-                            </h4>
-                            
-                        </span>
-                    </section>
-                
-            </div>
+          <div class="prev-next">
+            
+              <section class="prev">
+                <span class="art-item-left">
+                  <h4>
+                    <a href="/blog/2020/02/27/verilog%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97/" rel="prev" title="verilog基础模块">
+                      <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                      
+                        verilog基础模块
+                      
+                    </a>
+                  </h4>
+                  
+                    
+                    <h6 class="tags">
+                      &nbsp;<a class="tag" href="/blog/tags/verilog/"><i class="fas fa-tag" aria-hidden="true"></i> verilog</a>
+                    </h6>
+                  
+                </span>
+              </section>
+            
+            
+              <section class="next">
+                <span class="art-item-right" aria-hidden="true">
+                  <h4>
+                    <a href="/blog/2020/02/24/%E5%B1%81%E5%B1%81%E6%9E%AA%E5%BF%92%E9%AA%9A%E4%BA%86/" rel="prev" title="屁屁枪忒骚了">
+                      
+                        屁屁枪忒骚了
+                      
+                      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                  </h4>
+                  
+                </span>
+              </section>
+            
+          </div>
         
       </section>
     </article>
@@ -661,101 +649,21 @@
 </div>
 <aside class='l_side'>
   
-    
-    
-      
-        
-          <section class='widget  widget-blur blogger'>
-  <div class='content'>
-    
-      <div class='avatar'>
-        <img class='avatar' src='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png'/>
-      </div>
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">Hieda no akyuu</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/blog/atom.xml"
-              class="social fas fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-          
-            <a href="mailto:me@xaoxuu.com"
-              class="social fas fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-          
-            <a href="https://github.com/xaoxuu"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-          
-            <a href="https://music.163.com/#/user/home?id=63035382"
-              class="social fas fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
+  
 
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+  
     
-      
-        
-      
-        
-          
-  <section class='widget  widget-blur toc-wrapper'>
-    <header>
-  <div>
+    
+
+
+  <section class="widget toc-wrapper  widget-blur desktop mobile">
+    
+  <header>
     
       <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
     
+  </header>
 
-  </div>
-  
-    <!-- <div class='wrapper'><a class="s-toc rightBtn" rel="external nofollow noopener noreferrer" href="javascript:void(0)"><i class="fas fa-thumbtack fa-fw"></i></a></div> -->
-  
-</header>
 
     <div class='content'>
       <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#激励文件-tb-v的写法"><span class="toc-text">激励文件 .tb.v的写法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#简单的led实验的激励文件和程序文件的写法"><span class="toc-text">简单的led实验的激励文件和程序文件的写法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#激励文件"><span class="toc-text">激励文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#程序文件-v的代码"><span class="toc-text">程序文件 .v的代码</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#testbench中的常用写法"><span class="toc-text">testbench中的常用写法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#display-可自动换行"><span class="toc-text">display(可自动换行)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#write-无法自动换行"><span class="toc-text">write (无法自动换行)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#monitor"><span class="toc-text">monitor</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#strobe"><span class="toc-text">strobe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#stop"><span class="toc-text">stop</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#finish"><span class="toc-text">finish</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#模拟时间函数"><span class="toc-text">模拟时间函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#random"><span class="toc-text">random</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#readmemb"><span class="toc-text">$readmemb</span></a></li></ol></li></ol>
@@ -763,198 +671,19 @@
   </section>
 
 
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-          
-  <section class='widget  widget-blur category'>
-    <header>
-  <div>
-    
-      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span>
-    
-
-  </div>
   
-    <a class="rightBtn"
-    
-      rel="external nofollow noopener noreferrer"
-    
-    
-      target="_self"
-    
-    href="/blog/blog/categories/"
-    title="blog/categories/">
-    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
-  
-</header>
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/blog/categories/begin/" href="/blog/categories/begin/"
-            id="blogcategoriesbegin"
-            ><div class='name'>begin</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/blog/categories/diary/" href="/blog/categories/diary/"
-            id="blogcategoriesdiary"
-            ><div class='name'>diary</div><div class='badge'>(9)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/blog/categories/projects/" href="/blog/categories/projects/"
-            id="blogcategoriesprojects"
-            ><div class='name'>projects</div><div class='badge'>(2)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
 
 
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-        
-          
-  <section class='widget  widget-blur tagcloud'>
-    <header>
-  <div>
-    
-      <i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span>
-    
-
-  </div>
-  
-    <a class="rightBtn"
-    
-      rel="external nofollow noopener noreferrer"
-    
-    
-      target="_self"
-    
-    href="/blog/blog/tags/"
-    title="blog/tags/">
-    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
-  
-</header>
-
-    <div class='content'>
-      <a href="/blog/tags/touhou/" style="font-size: 14px; color: #999">touhou</a> <a href="/blog/tags/verilog/" style="font-size: 24px; color: #555">verilog</a>
-    </div>
-  </section>
-
-
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-  
 </aside>
 
-<footer class="clearfix ">
-  <br><br>
+
   
-    <div class="social-wrapper">
+  <footer class="clearfix ">
+    <br><br>
+    
       
-        
-          <a href="/blog/atom.xml"
-            class="social fas fa-rss flat-btn"
-            target="_blank"
-            rel="external nofollow noopener noreferrer">
-          </a>
-        
-      
-        
-          <a href="mailto:me@xaoxuu.com"
-            class="social fas fa-envelope flat-btn"
-            target="_blank"
-            rel="external nofollow noopener noreferrer">
-          </a>
-        
-      
-        
-          <a href="https://github.com/xaoxuu"
-            class="social fab fa-github flat-btn"
-            target="_blank"
-            rel="external nofollow noopener noreferrer">
-          </a>
-        
-      
-        
-          <a href="https://music.163.com/#/user/home?id=63035382"
-            class="social fas fa-headphones-alt flat-btn"
-            target="_blank"
-            rel="external nofollow noopener noreferrer">
-          </a>
-        
-      
-    </div>
-  
-  
-    <br>
-    <div class="aplayer-container">
-      
+        <div class="aplayer-container">
+          
 
   
     <meting-js
@@ -973,25 +702,74 @@
   
 
 
-    </div>
-  
-  <br>
-  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+        </div>
+      
+    
+      
+        <br>
+        <div class="social-wrapper">
+          
+            
+              <a href="/blog/atom.xml"
+                class="social fas fa-rss flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="mailto:me@xaoxuu.com"
+                class="social fas fa-envelope flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://github.com/xaoxuu"
+                class="social fab fa-github flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://music.163.com/#/user/home?id=63035382"
+                class="social fas fa-headphones-alt flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+        </div>
+      
+    
+      
+        <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
 </div>
-  <div>
-    本站使用
-    <a href="https://xaoxuu.com/wiki/volantis/" target="_blank" class="codename">Volantis</a>
-    作为主题
+      
     
-      ，
-      总访问量为
-      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
-      次
+      
+        本站使用
+        <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+        作为主题
+        
+          ，
+          总访问量为
+          <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+          次
+        
+      
     
-    。
-  </div>
-  
-</footer>
+      
+        <div class='copyright'>
+        <p><a href="https://xaoxuu.com" target="_blank" rel="noopener">Copyright © 2017-2020 Mr. X</a></p>
+
+        </div>
+      
+    
+  </footer>
+
 <script>setLoadingBarProgress(80);</script>
 
 
@@ -999,7 +777,9 @@
     </div>
     <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
 
   <script>
     
@@ -1008,24 +788,18 @@
     if (!ROOT.endsWith('/')) ROOT += '/';
   </script>
 
-<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
 
   <script async src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
   <script async src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      const $reveal = $('.reveal');
-      if ($reveal.length === 0) return;
-      const sr = ScrollReveal({ distance: 0 });
-      sr.reveal('.reveal');
-    });
-  </script>
 
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js" async></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
   <script type="text/javascript">
     $(function() {
       Waves.attach('.flat-btn', ['waves-button']);
@@ -1043,29 +817,26 @@
 
 
 
-
   
   
   
     
-      
-<script src="/blog/js/backstretch.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
 
-    
     <script type="text/javascript">
       $(function(){
         if ('') {
           $('').backstretch(
-          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg", "https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg", "https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg", "https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg"],
+          ["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/2884F904-F1F3-479E-AE27-5EBC291B63B0.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/298468D7-E388-44A8-8CC5-8213BDC33CED.jpeg"],
           {
-            duration: "10000",
+            duration: "20000",
             fade: "2500"
           });
         } else {
           $.backstretch(
-          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg", "https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg", "https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg", "https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg"],
+          ["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/2884F904-F1F3-479E-AE27-5EBC291B63B0.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/298468D7-E388-44A8-8CC5-8213BDC33CED.jpeg"],
           {
-            duration: "10000",
+            duration: "20000",
             fade: "2500"
           });
         }
@@ -1094,17 +865,13 @@
 
 
   
-    
-<script src="/blog/js/commentTyping.js"></script>
-
-  
-
-
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/js/comment_typing.js"></script>
 
 
 
 <!-- 复制 -->
-<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
   let COPY_SUCCESS = "复制成功";
   let COPY_FAILURE = "复制失败";
@@ -1188,8 +955,11 @@
 </script>
 
 
+
+
 <!-- fancybox -->
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script>
   let LAZY_LOAD_IMAGE = "";
   $(".article-entry").find("fancybox").find("img").each(function () {
@@ -1207,6 +977,7 @@
       $(this).wrap(element);
   });
 </script>
+
 
 
 
