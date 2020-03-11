@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://hiedanoakyuu.github.io/blog/"/>
-  <updated>2020-03-09T04:55:19.934Z</updated>
+  <updated>2020-03-11T15:58:39.366Z</updated>
   <id>https://hiedanoakyuu.github.io/blog/</id>
   
   <author>
@@ -17,17 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>fate stay night</title>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/03/11/fate-stay-night/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/03/11/fate-stay-night/</id>
+    <published>2020-03-11T15:55:30.000Z</published>
+    <updated>2020-03-11T15:58:39.366Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="音乐介绍"><a href="#音乐介绍" class="headerlink" title="音乐介绍"></a>音乐介绍</h2><p>命运开始之曲，同时也是BE38最悲壮之曲，也是UBW动画最终结局之曲。这首曲子真的承载了太多了…..<br>今天看完了全部的fate stay night游戏，感慨良多，这么庞大且凄美的世界，并不比东方差多少。<br>那是，如闪电一般的枪尖 为了穿刺心脏而射出的枪的尖端 试着躲避也是无意义的吧 既然那是闪电，就不是人的眼睛能捕捉的 但是 要贯穿这身体的闪电被要救这身体的银芒所弹开了</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;音乐介绍&quot;&gt;&lt;a href=&quot;#音乐介绍&quot; class=&quot;headerlink&quot; title=&quot;音乐介绍&quot;&gt;&lt;/a&gt;音乐介绍&lt;/h2&gt;&lt;p&gt;命运开始之曲，同时也是BE38最悲壮之曲，也是UBW动画最终结局之曲。这首曲子真的承载了太多了…..&lt;br&gt;今天看完了全部的
+      
+    
+    </summary>
+    
+    
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
+    
+    
+      <category term="fate" scheme="https://hiedanoakyuu.github.io/blog/tags/fate/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Lunate Elf(半月的妖精)</title>
     <link href="https://hiedanoakyuu.github.io/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/"/>
     <id>https://hiedanoakyuu.github.io/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/</id>
     <published>2020-03-09T04:36:15.000Z</published>
-    <updated>2020-03-09T04:55:19.934Z</updated>
+    <updated>2020-03-11T15:55:34.558Z</updated>
     
-    <content type="html"><![CDATA[<p>东方红魔乡二面boss主题曲</p><a id="more"></a><h2 id="音乐介绍"><a href="#音乐介绍" class="headerlink" title="音乐介绍"></a>音乐介绍</h2><h2 id="今日"><a href="#今日" class="headerlink" title="今日"></a>今日</h2><h3 id="关于git-push的事"><a href="#关于git-push的事" class="headerlink" title="关于git push的事"></a>关于git push的事</h3><p>原文链接：<a href="https://blog.csdn.net/sinat_24503691/article/details/90666090" target="_blank" rel="noopener">https://blog.csdn.net/sinat_24503691/article/details/90666090</a><br>近期上传总是失败，显示不允许另一个账号上传，，经查阅发现是我原来的账号没用删除<br>下面展示操作过程</p><hr><br>1.打开[凭据管理器]；<br><img src="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/1.png" class title="凭据管理器"><br>2.选择windows凭据；<img src="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/2.png" class title="选择windows凭据"><br>3.然后找到其中相关git账号的凭据，我的是在普通凭据下面，如图：<img src="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/2.png" class><br>以上操作结束之后尝试Git的Push或Pull操作，会要求你输入Git的账号和密码，然后再试就可以操作成功了；]]></content>
+    <content type="html"><![CDATA[<p>东方红魔乡二面曲子</p><a id="more"></a><h2 id="音乐介绍"><a href="#音乐介绍" class="headerlink" title="音乐介绍"></a>音乐介绍</h2><h2 id="今日"><a href="#今日" class="headerlink" title="今日"></a>今日</h2><h3 id="关于git-push的事"><a href="#关于git-push的事" class="headerlink" title="关于git push的事"></a>关于git push的事</h3><p>原文链接：<a href="https://blog.csdn.net/sinat_24503691/article/details/90666090" target="_blank" rel="noopener">https://blog.csdn.net/sinat_24503691/article/details/90666090</a><br>近期上传总是失败，显示不允许另一个账号上传，，经查阅发现是我原来的账号没用删除<br>下面展示操作过程</p><hr><br>1.打开[凭据管理器]；<br><img src="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/1.png" class title="凭据管理器"><br>2.选择windows凭据；<img src="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/2.png" class title="选择windows凭据"><br>3.然后找到其中相关git账号的凭据，我的是在普通凭据下面，如图：<img src="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/2.png" class><br>以上操作结束之后尝试Git的Push或Pull操作，会要求你输入Git的账号和密码，然后再试就可以操作成功了；]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;东方红魔乡二面boss主题曲&lt;/p&gt;
+      &lt;p&gt;东方红魔乡二面曲子&lt;/p&gt;
     
     </summary>
     
