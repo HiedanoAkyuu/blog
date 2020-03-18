@@ -461,8 +461,8 @@
 
 <p>仿真结果如下:<br><img src="https://i.loli.net/2020/03/12/K27pvUMXazf39t8.png" alt="12.png" title="仿真结果"></p>
 <h3 id="比较器"><a href="#比较器" class="headerlink" title="比较器"></a>比较器</h3><p>在 verilog 中以大于“&gt;”，等于”==”，小于”&lt;”，大于等于”&gt;=”，小于等于”&lt;=”，不等于”!=”表 示，以大于举例，如 c= a &gt; b ;表示如果 a 大于 b，那么 c 的值就为 1，否则为 0。真值表如下： </p>
-<p>![12.png](<a href="https://i.loli.net/2020/03/18/mEKDNkvQy3WXeHV.png" target="_blank" rel="noopener">https://i.loli.net/2020/03/18/mEKDNkvQy3WXeHV.png</a> 此处为c=a&gt;b的比较器真值表)</p>
-<p>![13.png](<a href="https://i.loli.net/2020/03/18/87LacUJ4srmCF3i.png" target="_blank" rel="noopener">https://i.loli.net/2020/03/18/87LacUJ4srmCF3i.png</a> RTL表示的比较器)</p>
+<p><img src="https://i.loli.net/2020/03/18/mEKDNkvQy3WXeHV.png" alt="13.png" title="此处为c=a&gt;b的比较器真值表"></p>
+<p><img src="https://i.loli.net/2020/03/18/87LacUJ4srmCF3i.png" alt="14.png" title="RTL表示的比较器"></p>
 <p>(没搞懂，，这里的1’h0 cin什么意思)</p>
 <p>代码</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">module top(a, b, c) ;  </span><br><span class="line">input  a ;  </span><br><span class="line">input  b ;  </span><br><span class="line">output c ;   </span><br><span class="line"></span><br><span class="line">assign c &#x3D; a &gt; b ;  </span><br><span class="line">endmodule</span><br></pre></td></tr></table></figure>
@@ -537,7 +537,7 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-18T21:22:21+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-18T21:40:04+08:00">
   <a class='notlink'>
     <i class="fas fa-save" aria-hidden="true"></i>
     <p>更新于：2020年3月18日</p>
