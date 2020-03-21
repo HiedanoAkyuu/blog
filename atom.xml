@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://hiedanoakyuu.github.io/blog/"/>
-  <updated>2020-03-20T15:49:01.975Z</updated>
+  <updated>2020-03-21T07:45:02.092Z</updated>
   <id>https://hiedanoakyuu.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ラクトガール　～ 少女密室</title>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/03/21/%E3%83%A9%E3%82%AF%E3%83%88%E3%82%AC%E3%83%BC%E3%83%AB-%EF%BD%9E-%E5%B0%91%E5%A5%B3%E5%AF%86%E5%AE%A4/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/03/21/%E3%83%A9%E3%82%AF%E3%83%88%E3%82%AC%E3%83%BC%E3%83%AB-%EF%BD%9E-%E5%B0%91%E5%A5%B3%E5%AF%86%E5%AE%A4/</id>
+    <published>2020-03-21T07:37:46.000Z</published>
+    <updated>2020-03-21T07:45:02.092Z</updated>
+    
+    <content type="html"><![CDATA[<p>东方红魔乡四面BOSS帕秋莉·诺蕾姬 Locked Girl　～ 少女密室</p><a id="more"></a><h3 id="wiki介绍"><a href="#wiki介绍" class="headerlink" title="wiki介绍"></a>wiki介绍</h3><p>帕秋莉·诺蕾姬的主题曲。<br>啊—，又是平时的病……<br>是阴暗的曲子。这样的激烈却没有明亮轻快的感觉<br>虽然再稍微舒服一点的话会好些，觉得听这首曲子会变得心情阴暗<br>起来（笑）</p><h3 id="里音乐评论"><a href="#里音乐评论" class="headerlink" title="里音乐评论"></a>里音乐评论</h3><p>Locked Girl、钥匙女孩。Key没什么特殊的关系。<br>喜欢太阳晒不到的地方，不健康少女。<br>另外虽然是密室，但没有密室杀人的意思。<br>密室自杀的话，我好像做得出来。</p><p>帅气的姆Q<br><img src="https://i.loli.net/2020/03/21/98cmvoThkUC56I2.jpg" alt="1.jpg" title="姆Q图"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;东方红魔乡四面BOSS帕秋莉·诺蕾姬 Locked Girl　～ 少女密室&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
+    
+    
+      <category term="touhou" scheme="https://hiedanoakyuu.github.io/blog/tags/touhou/"/>
+    
+  </entry>
   
   <entry>
     <title>ヴワル魔法図書館</title>
@@ -440,30 +463,6 @@
     
     
       <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://hiedanoakyuu.github.io/blog/2020/02/17/hello-world/"/>
-    <id>https://hiedanoakyuu.github.io/blog/2020/02/17/hello-world/</id>
-    <published>2020-02-17T12:19:51.765Z</published>
-    <updated>2020-03-05T02:54:07.088Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-      <category term="begin" scheme="https://hiedanoakyuu.github.io/blog/categories/begin/"/>
     
     
   </entry>
