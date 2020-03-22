@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://hiedanoakyuu.github.io/blog/"/>
-  <updated>2020-03-21T07:45:02.092Z</updated>
+  <updated>2020-03-22T13:04:10.644Z</updated>
   <id>https://hiedanoakyuu.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>正义的伙伴</title>
+    <link href="https://hiedanoakyuu.github.io/blog/2020/03/22/%E6%AD%A3%E4%B9%89%E7%9A%84%E4%BC%99%E4%BC%B4/"/>
+    <id>https://hiedanoakyuu.github.io/blog/2020/03/22/%E6%AD%A3%E4%B9%89%E7%9A%84%E4%BC%99%E4%BC%B4/</id>
+    <published>2020-03-22T12:58:27.000Z</published>
+    <updated>2020-03-22T13:04:10.644Z</updated>
+    
+    <content type="html"><![CDATA[<p>今日是卫宫士郎特别篇，fgo活动ccc复刻让我感触良多啊</p><a id="more"></a><p><img src="https://i.loli.net/2020/03/22/dTPv8kq2xOf9Zs1.jpg" alt="1.jpg"><br><img src="https://i.loli.net/2020/03/22/rpwIR6Qztai2uAL.jpg" alt="2.jpg"><br><img src="https://i.loli.net/2020/03/22/HW985UPyVNzak61.jpg" alt="3.jpg"><br><img src="https://i.loli.net/2020/03/22/712EMtYbKlyCrdF.jpg" alt="4.jpg"><br><img src="https://i.loli.net/2020/03/22/goLlEjFpifRr4N9.jpg" alt="5.jpg"><br><img src="https://i.loli.net/2020/03/22/DaYPcmn7fGMubiH.jpg" alt="6.jpg"><br><img src="https://i.loli.net/2020/03/22/v3NanOc4IoZRWSp.jpg" alt="7.jpg"><br><img src="https://i.loli.net/2020/03/22/RrpTDY89xVlFcti.jpg" alt="8.jpg"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今日是卫宫士郎特别篇，fgo活动ccc复刻让我感触良多啊&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
+    
+    
+      <category term="typemoon" scheme="https://hiedanoakyuu.github.io/blog/tags/typemoon/"/>
+    
+  </entry>
   
   <entry>
     <title>ラクトガール　～ 少女密室</title>
@@ -437,27 +460,6 @@
     <summary type="html">
     
       &lt;p&gt;今天母亲生日呢，我想做鱼香茄子，我可以做到吗？&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="diary" scheme="https://hiedanoakyuu.github.io/blog/categories/diary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>my first blog</title>
-    <link href="https://hiedanoakyuu.github.io/blog/2020/02/17/my-first-blog/"/>
-    <id>https://hiedanoakyuu.github.io/blog/2020/02/17/my-first-blog/</id>
-    <published>2020-02-17T13:20:32.000Z</published>
-    <updated>2020-03-05T02:53:13.327Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是我的第一个发的博客文章，这里不会设置百度或者谷歌索引，<a id="more"></a>所以会不会只有我自己一个人看呢？第一天属于测试性质，还有很多东西没有弄好，得去复习考研数学了，今天的电脑时间要结束了呢，这东西居然耗了我这么长时间，明明我之前弄过很多次hexo，，虽然都是半吊子，，终于，我要弄属于我自己的hexo了，感到，，</p><p>没什么好说的了，接下来一边更新于fpga有关的学习过程，一边完善这个blog</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是我的第一个发的博客文章，这里不会设置百度或者谷歌索引，&lt;/p&gt;
     
     </summary>
     
