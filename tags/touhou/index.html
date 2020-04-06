@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme='https://volantis.js.org/#2.1.6'>
+<head hexo-theme='https://volantis.js.org/#2.4.3'>
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -31,7 +31,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -52,6 +52,7 @@
   <!-- import link -->
   
 
+  
   
     
 <link rel="stylesheet" href="/blog/css/style.css">
@@ -74,32 +75,32 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class='container'>
   <div class='wrapper'>
-    <div class='nav-sub container--flex'>
-      <a class="logo flat-box"></a>
-      <ul class='switcher h-list'>
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h'>
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href='/blog/'>
+        <a class="title flat-box" target="_self" href='/blog/'>
           
           
           
           
-            VOLANTIS <b><sup style='color:#3AA757'>2.1.6</sup></b>
+            VOLANTIS <b><sup style='color:#3AA757'>2.4.3</sup></b>
           
         </a>
       
 
 			<div class='menu navigation'>
-				<ul class='h-list'>
+				<ul class='nav-list-h'>
           
           
           
@@ -220,112 +221,143 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索" />
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search..." />
+        </form>
+      </div>
 
-			<ul class='switcher h-list'>
+			<ul class='switcher nav-list-h'>
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/
+                  
+                  
+                  
+                    id="blog"
+                  >
+                  
+                    <i class='fas fa-rss fa-fw'></i>
+                  
+                  博客
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/categories/
+                  
+                  
+                  
+                    id="blogcategories"
+                  >
+                  
+                    <i class='fas fa-folder-open fa-fw'></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/tags/
+                  
+                  
+                  
+                    id="blogtags"
+                  >
+                  
+                    <i class='fas fa-tags fa-fw'></i>
+                  
+                  标签
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/archives/
+                  
+                  
+                  
+                    id="blogarchives"
+                  >
+                  
+                    <i class='fas fa-archive fa-fw'></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/friends/
+                  
+                  
+                  
+                    id="blogfriends"
+                  >
+                  
+                    <i class='fas fa-link fa-fw'></i>
+                  
+                  友链
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/about/
+                  
+                  
+                  
+                    id="blogabout"
+                  >
+                  
+                    <i class='fas fa-info-circle fa-fw'></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href=/blog/
-        
-        
-        
-          id="blog"
-        >
-        
-          <i class='fas fa-rss fa-fw'></i>
-        
-        博客
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/categories/
-        
-        
-        
-          id="blogcategories"
-        >
-        
-          <i class='fas fa-folder-open fa-fw'></i>
-        
-        分类
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/tags/
-        
-        
-        
-          id="blogtags"
-        >
-        
-          <i class='fas fa-tags fa-fw'></i>
-        
-        标签
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/archives/
-        
-        
-        
-          id="blogarchives"
-        >
-        
-          <i class='fas fa-archive fa-fw'></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/friends/
-        
-        
-        
-          id="blogfriends"
-        >
-        
-          <i class='fas fa-link fa-fw'></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/about/
-        
-        
-        
-          id="blogabout"
-        >
-        
-          <i class='fas fa-info-circle fa-fw'></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -433,7 +465,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月28日</p>
   </a>
 </div>
@@ -460,17 +492,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡五面BOSS 月时计　～ Luna Dial Luna:月亮的 Dial:表盘</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/28/%E6%9C%88%E6%99%82%E8%A8%88-%EF%BD%9E-%E3%83%AB%E3%83%8A%E3%83%BB%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AB/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡五面BOSS 月时计　～ Luna Dial Luna:月亮的 Dial:表盘</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/28/%E6%9C%88%E6%99%82%E8%A8%88-%EF%BD%9E-%E3%83%AB%E3%83%8A%E3%83%BB%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AB/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -545,7 +579,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月27日</p>
   </a>
 </div>
@@ -572,17 +606,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡五面道中 女仆与血之怀表</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/27/%E3%83%A1%E3%82%A4%E3%83%89%E3%81%A8%E8%A1%80%E3%81%AE%E6%87%90%E4%B8%AD%E6%99%82%E8%A8%88/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡五面道中 女仆与血之怀表</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/27/%E3%83%A1%E3%82%A4%E3%83%89%E3%81%A8%E8%A1%80%E3%81%AE%E6%87%90%E4%B8%AD%E6%99%82%E8%A8%88/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -657,7 +693,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月21日</p>
   </a>
 </div>
@@ -684,17 +720,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡四面BOSS帕秋莉·诺蕾姬 Locked Girl　～ 少女密室</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/21/%E3%83%A9%E3%82%AF%E3%83%88%E3%82%AC%E3%83%BC%E3%83%AB-%EF%BD%9E-%E5%B0%91%E5%A5%B3%E5%AF%86%E5%AE%A4/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡四面BOSS帕秋莉·诺蕾姬 Locked Girl　～ 少女密室</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/21/%E3%83%A9%E3%82%AF%E3%83%88%E3%82%AC%E3%83%BC%E3%83%AB-%EF%BD%9E-%E5%B0%91%E5%A5%B3%E5%AF%86%E5%AE%A4/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -769,7 +807,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月20日</p>
   </a>
 </div>
@@ -796,17 +834,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡四面道中曲 巴瓦鲁魔法图书馆</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/20/%E3%83%B4%E3%83%AF%E3%83%AB%E9%AD%94%E6%B3%95%E5%9B%B3%E6%9B%B8%E9%A4%A8/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡四面道中曲 巴瓦鲁魔法图书馆</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/20/%E3%83%B4%E3%83%AF%E3%83%AB%E9%AD%94%E6%B3%95%E5%9B%B3%E6%9B%B8%E9%A4%A8/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -881,7 +921,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月19日</p>
   </a>
 </div>
@@ -908,17 +948,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡三面BOSS红美铃 明治十七年的上海爱丽丝</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/19/%E6%98%8E%E6%B2%BB%E5%8D%81%E4%B8%83%E5%B9%B4%E3%81%AE%E4%B8%8A%E6%B5%B7%E3%82%A2%E3%83%AA%E3%82%B9/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡三面BOSS红美铃 明治十七年的上海爱丽丝</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/19/%E6%98%8E%E6%B2%BB%E5%8D%81%E4%B8%83%E5%B9%B4%E3%81%AE%E4%B8%8A%E6%B5%B7%E3%82%A2%E3%83%AA%E3%82%B9/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -993,7 +1035,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月15日</p>
   </a>
 </div>
@@ -1020,17 +1062,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡三面道中主题曲 上海红茶馆　～ Chinese Tea</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/15/%E4%B8%8A%E6%B5%B7%E7%B4%85%E8%8C%B6%E9%A4%A8-%EF%BD%9E-Chinese-Tea/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡三面道中主题曲 上海红茶馆　～ Chinese Tea</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/15/%E4%B8%8A%E6%B5%B7%E7%B4%85%E8%8C%B6%E9%A4%A8-%EF%BD%9E-Chinese-Tea/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -1105,7 +1149,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月9日</p>
   </a>
 </div>
@@ -1132,17 +1176,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡二面曲子</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡二面曲子</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/09/Lunate-Elf-%E5%8D%8A%E6%9C%88%E7%9A%84%E5%A6%96%E7%B2%BE/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -1217,7 +1263,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月8日</p>
   </a>
 </div>
@@ -1244,17 +1290,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡一面boss露米娅主题曲</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/08/%E5%A6%96%E9%AD%94%E5%A4%9C%E8%A1%8C/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡一面boss露米娅主题曲</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/08/%E5%A6%96%E9%AD%94%E5%A4%9C%E8%A1%8C/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -1329,7 +1377,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月5日</p>
   </a>
 </div>
@@ -1356,17 +1404,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>东方红魔乡TH6标题画面的主题曲。</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/03/05/%E6%AF%94%E8%B5%A4%E8%89%B2%E6%9B%B4%E7%BA%A2%E7%9A%84%E6%A2%A6/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>东方红魔乡TH6标题画面的主题曲。</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/03/05/%E6%AF%94%E8%B5%A4%E8%89%B2%E6%9B%B4%E7%BA%A2%E7%9A%84%E6%A2%A6/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -1539,11 +1589,11 @@
       volume='0.7'
       loop='all'
       order='list'
-      fixed='true'
+      fixed='false'
       list-max-height='340px'
       server='netease'
       type='playlist'
-      id='4904995896'
+      id='3175833810'
       list-folded='true'>
     </meting-js>
   
@@ -1705,11 +1755,11 @@
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1728,12 +1778,15 @@
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1748,6 +1801,7 @@
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1755,12 +1809,12 @@
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();
@@ -1785,7 +1839,7 @@
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script>
   let LAZY_LOAD_IMAGE = "";
-  $(".article-entry").find("fancybox").find("img").each(function () {
+  $(".article-entry").find("div.fancybox").find("img").each(function () {
       var element = document.createElement("a");
       $(element).attr("data-fancybox", "gallery");
       $(element).attr("href", $(this).attr("src"));

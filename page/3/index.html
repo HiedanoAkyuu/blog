@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme='https://volantis.js.org/#2.1.6'>
+<head hexo-theme='https://volantis.js.org/#2.4.3'>
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -33,7 +33,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -54,6 +54,7 @@
   <!-- import link -->
   
 
+  
   
     
 <link rel="stylesheet" href="/blog/css/style.css">
@@ -76,32 +77,32 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class='container'>
   <div class='wrapper'>
-    <div class='nav-sub container--flex'>
-      <a class="logo flat-box"></a>
-      <ul class='switcher h-list'>
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h'>
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href='/blog/'>
+        <a class="title flat-box" target="_self" href='/blog/'>
           
           
           
           
-            VOLANTIS <b><sup style='color:#3AA757'>2.1.6</sup></b>
+            VOLANTIS <b><sup style='color:#3AA757'>2.4.3</sup></b>
           
         </a>
       
 
 			<div class='menu navigation'>
-				<ul class='h-list'>
+				<ul class='nav-list-h'>
           
           
           
@@ -222,112 +223,143 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索" />
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search..." />
+        </form>
+      </div>
 
-			<ul class='switcher h-list'>
+			<ul class='switcher nav-list-h'>
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/
+                  
+                  
+                  
+                    id="blog"
+                  >
+                  
+                    <i class='fas fa-rss fa-fw'></i>
+                  
+                  博客
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/categories/
+                  
+                  
+                  
+                    id="blogcategories"
+                  >
+                  
+                    <i class='fas fa-folder-open fa-fw'></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/tags/
+                  
+                  
+                  
+                    id="blogtags"
+                  >
+                  
+                    <i class='fas fa-tags fa-fw'></i>
+                  
+                  标签
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/archives/
+                  
+                  
+                  
+                    id="blogarchives"
+                  >
+                  
+                    <i class='fas fa-archive fa-fw'></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/friends/
+                  
+                  
+                  
+                    id="blogfriends"
+                  >
+                  
+                    <i class='fas fa-link fa-fw'></i>
+                  
+                  友链
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/blog/about/
+                  
+                  
+                  
+                    id="blogabout"
+                  >
+                  
+                    <i class='fas fa-info-circle fa-fw'></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href=/blog/
-        
-        
-        
-          id="blog"
-        >
-        
-          <i class='fas fa-rss fa-fw'></i>
-        
-        博客
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/categories/
-        
-        
-        
-          id="blogcategories"
-        >
-        
-          <i class='fas fa-folder-open fa-fw'></i>
-        
-        分类
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/tags/
-        
-        
-        
-          id="blogtags"
-        >
-        
-          <i class='fas fa-tags fa-fw'></i>
-        
-        标签
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/archives/
-        
-        
-        
-          id="blogarchives"
-        >
-        
-          <i class='fas fa-archive fa-fw'></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/friends/
-        
-        
-        
-          id="blogfriends"
-        >
-        
-          <i class='fas fa-link fa-fw'></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href=/blog/about/
-        
-        
-        
-          id="blogabout"
-        >
-        
-          <i class='fas fa-info-circle fa-fw'></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -341,6 +373,103 @@
   <section class="post-list ">
     
     
+      
+        
+          <div class='post-wrapper'>
+            <article class="post white-box shadow reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/blog/2020/02/23/%E6%88%91%E6%8A%BD%E5%88%B0%E4%BC%8A%E8%8E%89%E9%9B%85%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%BA%86%EF%BC%81%EF%BC%81/">
+      我抽到伊莉雅一家人了！！
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+<div class='new-meta-item author'>
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>hiedanoakyuu</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class='new-meta-item category'>
+    <a href='/blog/categories/diary/' rel="nofollow">
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <p>diary</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年2月23日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>没什么好说的了，明天正式开课，今天把主题换成了volantis</p>
+      
+    </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/02/23/%E6%88%91%E6%8A%BD%E5%88%B0%E4%BC%8A%E8%8E%89%E9%9B%85%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%BA%86%EF%BC%81%EF%BC%81/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
+  </section>
+</article>
+
+          </div>
+        
       
         
           <div class='post-wrapper'>
@@ -393,7 +522,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
@@ -420,17 +549,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>今天六级出成绩，，454，，不高的分数，但是和预估相比能看出些东西。</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/02/21/%E4%BC%8A%E8%8E%89%E9%9B%85%E5%8D%A1%E5%93%87%E4%BC%8A/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>今天六级出成绩，，454，，不高的分数，但是和预估相比能看出些东西。</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/02/21/%E4%BC%8A%E8%8E%89%E9%9B%85%E5%8D%A1%E5%93%87%E4%BC%8A/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -488,7 +619,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月20日</p>
   </a>
 </div>
@@ -515,17 +646,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>很难受，今天的deadline没有完成任务，知识点是学完了三节作业的量，但是却只是刚好吸收完，就得开始英语了，虽然我昨天就知道完成是不可能的。下一个deadline是2.23，我得加快fpga的学习进度</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/02/20/born/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>很难受，今天的deadline没有完成任务，知识点是学完了三节作业的量，但是却只是刚好吸收完，就得开始英语了，虽然我昨天就知道完成是不可能的。下一个deadline是2.23，我得加快fpga的学习进度</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/02/20/born/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -583,7 +716,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月19日</p>
   </a>
 </div>
@@ -610,19 +743,21 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h1 id="今日吐槽"><a href="#今日吐槽" class="headerlink" title="今日吐槽"></a>今日吐槽</h1><p>emmm，，突然发现搜索功能不正常，看看是怎么回事，，</p>
+      
+        <h1 id="今日吐槽"><a href="#今日吐槽" class="headerlink" title="今日吐槽"></a>今日吐槽</h1><p>emmm，，突然发现搜索功能不正常，看看是怎么回事，，</p>
 <p>在线图床还是不靠谱，直接把图片存在本地算了，</p>
 <p>不行，还是换回material-x吧，，bluelake不得行</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/02/19/%E4%BB%8A%E6%97%A5%E4%BE%9D%E7%84%B6%E6%98%AF%E4%BC%8A%E8%8E%89%E9%9B%85%E6%97%A5%E5%91%A2/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
-      
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/02/19/%E4%BB%8A%E6%97%A5%E4%BE%9D%E7%84%B6%E6%98%AF%E4%BC%8A%E8%8E%89%E9%9B%85%E6%97%A5%E5%91%A2/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -680,7 +815,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月18日</p>
   </a>
 </div>
@@ -707,17 +842,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>今天母亲生日呢，我想做鱼香茄子，我可以做到吗？</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/02/18/%E5%85%8B%E6%B4%9B%E4%BC%8A%E5%8D%A1%E5%93%87%E4%BC%8A/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>今天母亲生日呢，我想做鱼香茄子，我可以做到吗？</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/02/18/%E5%85%8B%E6%B4%9B%E4%BC%8A%E5%8D%A1%E5%93%87%E4%BC%8A/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -775,7 +912,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月17日</p>
   </a>
 </div>
@@ -802,17 +939,19 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>这是我的第一个发的博客文章，这里不会设置百度或者谷歌索引，</p>
       
-        
-          <div class="button readmore">
-            <a href="/blog/2020/02/17/my-first-blog/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>这是我的第一个发的博客文章，这里不会设置百度或者谷歌索引，</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/blog/2020/02/17/my-first-blog/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -870,7 +1009,7 @@
           
             <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月17日</p>
   </a>
 </div>
@@ -897,7 +1036,8 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -912,9 +1052,10 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1100,11 +1241,11 @@
       volume='0.7'
       loop='all'
       order='list'
-      fixed='true'
+      fixed='false'
       list-max-height='340px'
       server='netease'
       type='playlist'
-      id='4904995896'
+      id='3175833810'
       list-folded='true'>
     </meting-js>
   
@@ -1266,11 +1407,11 @@
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1289,12 +1430,15 @@
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1309,6 +1453,7 @@
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1316,12 +1461,12 @@
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();
@@ -1346,7 +1491,7 @@
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script>
   let LAZY_LOAD_IMAGE = "";
-  $(".article-entry").find("fancybox").find("img").each(function () {
+  $(".article-entry").find("div.fancybox").find("img").each(function () {
       var element = document.createElement("a");
       $(element).attr("data-fancybox", "gallery");
       $(element).attr("href", $(this).attr("src"));
